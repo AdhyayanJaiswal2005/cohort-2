@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:  1fr 2fr 1fr 1fr ;
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "d1 d2 d3"
+                          "d1 d4 d3"
+                        ;
+                        grid-gap: 20px;
+                        padding: 20px;
+}
+header{
+    background-color: brown;
+    border: 5px solid white;
+    grid-area: header;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+section{
+     background-color: green;
+    border: 5px solid white;
+    grid-area: section;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#d1{
+     background-color: darkgoldenrod;
+    border: 5px solid white;
+    grid-area: d1;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#d2{
+     background-color: rgb(247, 179, 7);
+    border: 5px solid white;
+    grid-area: d2;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#d3{
+     background-color: blue;
+    border: 5px solid white;
+    grid-area: d3;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#d4{
+     background-color: rgb(65, 48, 6);
+    border: 5px solid white;
+    grid-area: d4;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+

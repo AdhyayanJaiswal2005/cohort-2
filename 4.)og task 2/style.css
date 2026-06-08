@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family:'car';
+    src: url(./STOREB__.TTF);
+}
+#main{
+    height:100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1763987209766-d9bb8836c0e2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+     background-position: center; 
+     /* background-repeat: no-repeat; */
+     color: white;
+     font-size: 100px;
+     font-family:'car';
+    padding-left: 500px;
+    padding-top: 1000px;
+    
+    
+}
+button{
+    height: 300px;
+    width:800px;
+    font-size: 100px;
+    font-family: car;
+   background-color: white;
+   margin-top: 100px;
+   margin-left: 700px;
+   border: 1px solid silver;
+   border-radius: 100px;
+;
+}

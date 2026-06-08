@@ -1,0 +1,77 @@
+#name{
+    background-color:rgb(42, 42, 155);
+    color: white;
+    text-align: center;
+    height: 100px;
+
+}
+#about{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 150px;
+    width:800px;
+    margin-left: 330px;
+    
+}
+#edu{
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    width:800px;
+    margin-left: 330px;
+    
+}
+.educ{
+    background-color: white;
+    height: 50px;
+    width:500px;
+    margin-left:150px;
+    
+    
+}
+#skill{
+    background-color: rgb(251, 251, 117);
+    text-align: center;
+     height: 300px;
+    width:800px;
+    margin-left: 330px;
+    
+}
+.skills{
+    background-color: whitesmoke;
+     height: 50px;
+    width:500px;
+    margin-left:150px;
+}
+#pro{
+     background-color: lightpink;
+     text-align: center;
+    height: 250px;
+    width:800px;
+    margin-left: 330px;
+}
+.proj{
+     background-color: whitesmoke;
+     height: 50px;
+    width:500px;
+    margin-left:150px;
+}
+#con{
+     background-color: lightgreen;
+     text-align: center;
+    height: 250px;
+    width:800px;
+    margin-left: 330px;
+}
+.conct{
+      background-color: whitesmoke;
+     height: 50px;
+    width:500px;
+    margin-left:150px;
+}
+#last{
+    background-color:rgb(42, 42, 155);
+    text-align: center;
+    color: white;
+    height:80px;
+}

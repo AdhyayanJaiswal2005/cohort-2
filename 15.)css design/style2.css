@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+    grid-template-areas: "h1 h1 h2"
+                         "section section section"
+                          "f1 f2 f3"
+                         ;
+                         grid-gap: 20px;
+                         padding: 20px;
+}
+#h1{
+    background-color: brown;
+    grid-area: h1;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#h2{
+    background-color: aqua;
+    grid-area: h2;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+} 
+section{
+    background-color: blanchedalmond;
+    grid-area: section;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#f1{
+    background-color: blueviolet;
+    border: 5px solid white;
+    grid-area: f1;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#f2{
+    background-color: blueviolet;
+    border: 5px solid white;
+    grid-area: f2;
+     font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+#f3{
+    background-color: blueviolet;
+    border: 5px solid white;
+    grid-area:f3;
+     font-size: xx-large;
+    font-weight: 600;
+    font-style: italic;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+     flex-wrap:nowrap;
+     overflow: auto;
+}
+#child{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    flex-shrink: 0;
+    border: 3px solid royalblue;
+   
+}
+#child:nth-child(2n){
+    background-color: brown;
+}
+#child:nth-last-child(3n){
+    background-color: black;
+}

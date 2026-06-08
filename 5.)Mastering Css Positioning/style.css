@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+  #Box{
+     position: relative; 
+    width: 100%;
+    height: 3000px; 
+    background-color: black;
+}
+#SmallBox{
+    position: absolute;
+   top: 10%;
+    left: 50%;
+    width: 200px;
+    height: 200px; 
+    background-color: rgb(217, 31, 31);
+ }         
+   /*fixed works in respect to screen only*/
+   /*absolute scroll hojayegaaa aur fixd fix rahega*/
+ /* #Box1{
+    width: 100%;
+    height: 2000px; 
+    background-color: grey;
+} 
+#SmallBox1{
+     position: fixed; 
+    position: sticky; 
+    top: 10%;
+    left:60%;
+    width:200px;
+    height: 100px; 
+    background-color: palevioletred;
+} */
+#Box2{
+  width: 100%;
+    height: 2000px; 
+    background-color:greenyellow;  
+}

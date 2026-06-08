@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#parent {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 30% 40% 10%;
+    grid-template-rows: 10% 20% 60% 10%;
+}
+.box:nth-child(n){
+    background-color: red;
+    border: 3px solid black;
+
+}
+
+
+
+

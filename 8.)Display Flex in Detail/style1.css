@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+#box1{
+    height:200px;
+    width: 200px;
+    background-color: red;
+    flex-shrink: 0;
+    
+}
+#box2{
+    height:200px;
+    width: 200px;
+    background-color: green;
+     flex-shrink: 0;
+}
+#box3{
+    height:200px;
+    width: 200px;
+    background-color: rgb(128, 0, 79);
+     flex-shrink: 0;
+}
+#box4{
+    height:200px;
+    width: 200px;
+    background-color: gold;
+     flex-shrink: 0;
+}
